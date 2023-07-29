@@ -7,13 +7,16 @@ emisfile  = emisdir + 'XS_emis_inventory_2020.xlsx'
 emispoint = emisdir + 'point_source.xlsx'
 emisarea  = emisdir + 'area_source.xlsx'
 
-# local emis netcdf
-emis_point_dir = datadir + 'Local_emis_2020/preliminary_emis/point_source/'
-local_ind_point = emis_point_dir + 'industry.nc'
-local_agr_point = emis_point_dir + 'agriculture.nc'
+# sector mapping file
+secmap = datadir + 'Local_emis_2020/SectorMapping.xlsx'
 
-emis_area_dir = datadir + 'Local_emis_2020/preliminary_emis/area_source/'
-local_ind_area = emis_area_dir + ''
+# local emis netcdf
+emis_nc_dir = datadir + 'Local_emis_2020/preliminary_emis/meic_category/sum/'
+local_ind_file = emis_nc_dir + 'Industry.nc'
+local_pow_file = emis_nc_dir + 'Power.nc'
+local_tra_file = emis_nc_dir + 'Transportation.nc'
+local_res_file = emis_nc_dir + 'Residential.nc'
+local_agr_file = emis_nc_dir + 'Agriculture.nc'
 
 # meic emis
 meicdir = datadir + 'Local_emis_2020/MEIC_XS/'
@@ -23,3 +26,11 @@ meic_res_file = meicdir + 'emis.CN3XS_135X138.res.ncf'
 meic_tra_file = meicdir + 'emis.CN3XS_135X138.tra.ncf'
 meic_agr_file = meicdir + 'emis.CN3XS_135X138.agr.ncf'
 meic_shp_file = meicdir + 'emis.CN3XS_135X138.shp.ncf'
+
+# allocated emis
+allocated_dir = datadir + 'Local_emis_2020/allocated_emis/'
+lex_ind_file = allocated_dir + 'ind.nc'
+lex_pow_file = allocated_dir + 'pow.nc'
+lex_tra_file = allocated_dir + 'tra.nc'
+lex_res_file = allocated_dir + 'res.nc'
+lex_agr_file = allocated_dir + 'agr.nc'
