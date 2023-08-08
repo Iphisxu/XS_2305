@@ -34,3 +34,7 @@ lex_pow_file = allocated_dir + 'pow.nc'
 lex_tra_file = allocated_dir + 'tra.nc'
 lex_res_file = allocated_dir + 'res.nc'
 lex_agr_file = allocated_dir + 'agr.nc'
+
+# for TEST_SIM
+timestart = '2023-06-11T00'
+timeend   = '2023-06-16T23'
