@@ -38,3 +38,12 @@ lex_agr_file = allocated_dir + 'agr.nc'
 # for TEST_SIM
 timestart = '2023-06-11T00'
 timeend   = '2023-06-16T23'
+
+mcip_file   = datadir + 'TEST_SIM/XS_test_mcip.nc'
+meic_ncfile = datadir + 'TEST_SIM/XS_test_meic.nc'
+lex_ncfile  = datadir + 'TEST_SIM/XS_test_lex.nc'
+
+# shapefile
+shphz   = datadir + 'shapefile/杭州市/杭州市.shp'
+shpxs = datadir + 'shapefile/萧山区/萧山区.shp'
+shpmap   = datadir + 'shapefile/杭州市各区/杭州市各区.shp'
